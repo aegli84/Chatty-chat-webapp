@@ -1,22 +1,31 @@
 import styled from "styled-components"
 import chatlogo from '../assets/chatlogo.png'
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return(
-        <HeaderContainer>
-            <div>
+        <NavContainer>
+            <ul>
                 <img src={chatlogo} alt="logo" />
-                <h3>Login</h3>
-                <h3>Register</h3>
-                <h3>Contact</h3>
+                    <li>
+                        <Link to='/Login'>
+                        </Link>
+                        Login
+                    </li>
+                    <li>
+                        <Link to='/Register'>
+                        </Link>
+                        Register
+                    </li>
+                <li>Contact</li>
                 <Line></Line>
-            </div>
+            </ul>
             
-        </HeaderContainer>
+        </NavContainer>
     )
 }
 
-const HeaderContainer = styled.div `
+const NavContainer = styled.nav `
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -27,7 +36,10 @@ const HeaderContainer = styled.div `
         margin-top: 1rem;
         width: 4rem;
     }
-    h3 {
+    ul{
+        list-style: none;
+    }
+    li {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         color: #463C74;

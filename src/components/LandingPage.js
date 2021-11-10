@@ -29,6 +29,7 @@ const ContainerLanding = styled.div `
         display: flex;
         width: 55%;
         z-index: -5;
+        filter: drop-shadow(0 0 0.1rem #463C74);
     }
 `
 
