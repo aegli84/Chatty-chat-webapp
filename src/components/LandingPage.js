@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Patterns from '../assets/Patterns.png'
+import {Link } from "react-router-dom";
 
 const LandingPage = () => {
     return(
@@ -11,9 +12,14 @@ const LandingPage = () => {
                 <p>Connect anytime, anywhere</p>
                 <p class='text'>Make meaningful connections and don’t leave anything to interpretation</p>
             </IntroLanding>
+            
             <ButtonsLanding>
-                <ButtonOne>Get In</ButtonOne>
-                <ButtonTwo>Join Us</ButtonTwo>
+                <Link to='/Login'>
+                    <ButtonOne>Get In</ButtonOne>
+                </Link>
+                <Link to='/Register'>
+                    <ButtonTwo>Join Us</ButtonTwo>
+                </Link>
             </ButtonsLanding>
         </ContainerLanding>
     )
@@ -33,7 +39,7 @@ const ContainerLanding = styled.div `
     }
 `
 
-const IntroLanding = styled.div`
+const IntroLanding = styled.main`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -89,4 +95,4 @@ const ButtonTwo = styled.button`
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
 `
-export default LandingPage
+export default LandingPage;
