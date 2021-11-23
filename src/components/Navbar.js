@@ -36,7 +36,7 @@ const NavContainer = styled.nav `
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: no-wrap;
-    margin: 1rem 5rem;
+    margin: 1rem 8rem;
         img {
         margin-top: 1rem;
         width: 4rem;
@@ -57,15 +57,15 @@ const NavContainer = styled.nav `
     }
 `
 const Line = styled.div`
-    height: 10rem;
+    height: 13rem;
     width: .2rem;
     background-color: #FD6234;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 2.5rem;
     border-radius: 3rem;
 `
 const Tab = styled(Link)`
-    color: #463C74;
+    color: #f5f5f5;
     font-size: 1.1rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;

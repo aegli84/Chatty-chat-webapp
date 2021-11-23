@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
         ${'' /* overflow-x: hidden;
         overflow-y: hidden; */}
 
-        background-color: #FCF4E1;
+        background-color: black;
         
     }
     
