@@ -38,7 +38,8 @@ const ContainerLanding = styled.div `
         z-index: -1;
         height: 100vh;
         
-        /* filter: drop-shadow(0 0 0.1rem #463C74); */
+        filter: drop-shadow(-.5rem -.5rem .1rem #FD6234);
+        filter: drop-shadow(-.5rem -.2rem .1rem orange );
     }
 `
 
@@ -109,6 +110,10 @@ const ButtonOne = styled.button`
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     color: #463C74;
+    @media (min-width: 1200px){
+        width: 12em;
+        padding: 1.3em;
+    }
 `
 const ButtonTwo = styled.button`
     margin-left: 3rem;
@@ -122,5 +127,9 @@ const ButtonTwo = styled.button`
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
     color: #463C74;
+    @media (min-width: 1200px){
+        width: 12em;
+        padding: 1.3em;
+    }
 `
 export default LandingPage;

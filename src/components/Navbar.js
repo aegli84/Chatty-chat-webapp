@@ -17,9 +17,9 @@ const Navbar = () => {
                 <li>
                     <Tab to='Login' activeStyle={activeStyle}>Login</Tab>
                 </li>
-                <li>
+                {/* <li>
                     <Tab to='Register' activeStyle={activeStyle}>Register</Tab>
-                </li>
+                </li> */}
                 <li>
                     <Tab to='Contact' activeStyle={activeStyle}>Contact</Tab>
                 </li>
