@@ -8,9 +8,9 @@ const LandingPage = () => {
             <img src={Waimakariri} alt="" />
             
             <IntroLanding>
-                <h1>We have to talk... </h1>
+                <h1>Let's chat... </h1>
                 <p>Connect anytime, anywhere</p>
-                <p class='text'>Make meaningful connections and don’t leave anything to interpretation</p>
+                <p class='text'>Stay in touch & connected with friends and family right here, right now!</p>
             </IntroLanding>
             
             <ButtonsLanding>
@@ -57,7 +57,7 @@ const IntroLanding = styled.main`
         font-weight: 900;
         font-size: 4.5rem;
         color: #463C74;
-        margin-left: 8rem;
+        margin-left: 2rem;
         margin-bottom: 3rem;
     @media (min-width: 1200px){
         margin-bottom: 4rem;
@@ -83,7 +83,7 @@ const IntroLanding = styled.main`
     }
     }
     .text {
-        margin: 1rem 2rem 1rem 12rem;
+        margin: 1rem 5rem 1rem 12rem;
         @media (min-width: 1200px){
             margin: 1rem 4rem 1rem 15rem;
             font-size: 1.9rem;
